@@ -3,6 +3,8 @@ package com.simplejavaee.model;
 import java.io.Serializable;
 
 public class NameM implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
 	private String name;
 
 	public String getName() {
@@ -12,6 +14,5 @@ public class NameM implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
 
 }
